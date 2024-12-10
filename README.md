@@ -1,4 +1,4 @@
-# Fall-Detection
+# Fall-Detection (Personal Project)
 
 Current Version: 1.0
 
