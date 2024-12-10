@@ -9,8 +9,10 @@ Approach (V1.0): Sequence Modeling using a combination of CNN and LSTM
                   2) LRCN: Convolution and LSTM layers in a single model
 
 ## Timeline:
-																
+
+		
 ![image](https://github.com/user-attachments/assets/77001c4f-37b2-450e-ba58-ea1196046684)
+
 
 ## Version 1.0:
 
@@ -67,6 +69,7 @@ Approach (V1.0): Sequence Modeling using a combination of CNN and LSTM
 	• Reduce IMAGE_HEIGHT and IMAGE_WIDTH further (e.g., 32x32) to decrease the model's complexity. 
 	• This reduces the likelihood of overfitting, especially if the dataset is relatively small.
 
+
 ### LRCN V1.0:
 
 ![image](https://github.com/user-attachments/assets/6f772837-8156-405d-b89d-82d61c7be6df)
@@ -103,5 +106,4 @@ Approach (V1.0): Sequence Modeling using a combination of CNN and LSTM
 	• Use smaller dropout rates (e.g., 0.1 or 0.15) in the convolutional layers to retain more information.
 6. Validation Split:
 	• Ensure the validation split is stratified to avoid class imbalance in the validation set.
-![image](https://github.com/user-attachments/assets/12d42207-cc09-499d-902f-e3c91e9c9a77)
 
