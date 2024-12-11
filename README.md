@@ -114,7 +114,7 @@ Approach (V2.0): Sequence Modeling using a combination of CNN and LSTM
 ![image](https://github.com/user-attachments/assets/1acc6872-08b0-4030-9294-d35b44938ce1)
 
 
-### LRCN V1.0:
+### LRCN V2.0:
 ![image](https://github.com/user-attachments/assets/bea3b1f6-af79-4999-aa40-bcee3bcb864c)
 
 
