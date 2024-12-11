@@ -1,17 +1,16 @@
 # Fall-Detection (Personal Project)
 
-Current Version: 1.0
+Current Version: 2.0
 
 Dataset: Harvard Dataverse's Fall Vision Dataset (https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/75QPKK)
 
-Approach (V1.0): Sequence Modeling using a combination of CNN and LSTM
+Approach (V2.0): Sequence Modeling using a combination of CNN and LSTM
                   1) Model using ConvLSTM2D()
                   2) LRCN: Convolution and LSTM layers in a single model
 
 ## Timeline:
-
 		
-![image](https://github.com/user-attachments/assets/77001c4f-37b2-450e-ba58-ea1196046684)
+<img width="892" alt="Screenshot 2024-12-11 at 2 39 51 AM" src="https://github.com/user-attachments/assets/7f4be7a4-df78-4604-b8fe-c3cae78c7871">
 
 
 ## Version 1.0:
@@ -106,4 +105,16 @@ Approach (V1.0): Sequence Modeling using a combination of CNN and LSTM
 	• Use smaller dropout rates (e.g., 0.1 or 0.15) in the convolutional layers to retain more information.
 6. Validation Split:
 	• Ensure the validation split is stratified to avoid class imbalance in the validation set.
+
+
+## Version 2.0:
+
+### ConvLSTM V2.0:
+
+![image](https://github.com/user-attachments/assets/1acc6872-08b0-4030-9294-d35b44938ce1)
+
+
+### LRCN V1.0:
+![image](https://github.com/user-attachments/assets/bea3b1f6-af79-4999-aa40-bcee3bcb864c)
+
 
